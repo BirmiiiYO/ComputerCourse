@@ -19,11 +19,11 @@ export default function Header() {
             <li>Контакты</li>
           </ul>
         </div>
-        <div className={st.btn}>Зайти в кабинет</div>
+        <button className={st.btn}>Зайти в кабинет</button>
     </div>
-    <div>
-      <div>Первый курс по компьютерной сборке</div>
-      <div>
+    <div className={st.info}>
+      <div className={st.info_text}>Первый курс по компьютерной сборке</div>
+      <div className={st.info_counter}>
       <div>18 дней</div>
       <div>18 часов</div>
       <div>18 минут</div>

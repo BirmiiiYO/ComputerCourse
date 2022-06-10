@@ -1,6 +1,8 @@
 .container{
     background-image: url('file:///C:/Users/Birmiii/Desktop/course/ComputerCourse/src/imgs/main-screen__bgc.png');
     height: 960px;
+    font-family: 'Roboto', sans-serif;
+    
 }
 .header{
     display: flex;
@@ -29,6 +31,16 @@ ul {
 }
 
 .btn{
-
+    padding: 10px 30px 10px 30px;
+    background: linear-gradient(to right,#C89AFC,#7C6AFA);
+    border-radius: 50px;
+    border: none;
+    color: white;
 }
+
+.info{
+    margin-top: 270px;
+    margin-left: 16.25%;
+}
+
 
