@@ -89,14 +89,14 @@ select {
 
 .main{
   background-image: url('file:///C:/Users/Birmiii/Desktop/course/ComputerCourse/src/imgs/main-screen__bgc.png');
-  background-size:inherit;
+
 }
 
 .header{
   display: flex;
   justify-content:space-between;
   align-items: center;
-  padding: 38px 80px 0px 80px;
+  padding: 31px 63px 0px 80px;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
@@ -104,6 +104,8 @@ select {
 ul {
   display: flex;
   justify-content: space-between;
+  margin-left:200px;
+
 
   li{
       list-style-type: none;
@@ -125,7 +127,7 @@ ul {
 }
 .main_info{
 
-  margin-left: 16%;
+  margin-left: 16.4%;
   font-family: 'Roboto', sans-serif;
 
   &_text{
@@ -133,7 +135,7 @@ ul {
     font-size: 64px;
     line-height: 90px;
     max-width: 990px;
-    margin: 200px 0px 50px 0px;
+    margin: 185px 0px 50px 0px;
     
   }
 
@@ -145,7 +147,7 @@ ul {
       background-color: #121212;
       height: 112px;
       align-items: center;
-      padding: 20px 33px 42px 33px;
+      padding: 18px 30px 42px 33px;
       margin-right: 30px;
       margin-bottom: 218px;
     }
@@ -179,6 +181,7 @@ ul {
     align-items: center ;
 
 
+
     &_btn{
       padding: 10px 30px 10px 30px;
       background: linear-gradient(to right,#DF5950,#451046);
@@ -189,14 +192,15 @@ ul {
       font-weight: 700;
       font-size: 16px;
       line-height: 24px;
-      margin: 43px 111px 43px 0px;
+      margin: 43px 87px 43px 0px;
+      min-width: 180px;
   }
 
   &_info{
     
     justify-content: space-between;
     align-items: center;
-    margin-right: 81px;
+    margin-right: 70px;
     font-size: 16px;
     line-height: 24px;
   }
@@ -239,9 +243,9 @@ ul {
 
 
 .information{
-  max-width: 1310px;
+  max-width: 1280px;
   margin: 0 auto;
-  margin-top: 200px;
+  margin-top: 197px;
 }
 .about{
   display: flex;
@@ -252,15 +256,18 @@ ul {
     font-size: 16px;
     font-weight: regular;
     line-height: 26px;
+    padding-left: 22px;
+  
+    
   }
   h2{
     font-weight: 700;
     font-size: 48px;
     line-height: 67px;
-    margin-bottom: 45px;
+    margin: 70px 0 45px 16px;
   }
   img{
-    margin-bottom: 231px;
+    margin-bottom: 219px;
   }
 }
 
@@ -280,6 +287,10 @@ ul {
     max-width: 411px;
     margin-bottom: 80px;
   }
+  h2{
+    font-size: 48px;
+    font-weight: 700;
+  }
   &_info{
     
     align-items: center;
@@ -289,7 +300,8 @@ ul {
     max-width: 324px;
   }
   img{
-    margin-right: 20px;
+    margin-right: 40px;
+    margin-left: 11px;
   }
   .percent{
     font-weight: 700;
@@ -329,5 +341,142 @@ ul {
     max-width: 306px;
     margin-right: 20px;
     margin-bottom: 200px;
+  }
+}
+.advantages{
+  h2{
+    display: flex;
+    justify-content: center;
+    margin: 5px 0px 127px 65px;
+    font-weight: 700;
+    font-size: 48px;
+
+  }
+  .adv_info{
+    display: flex;
+    justify-content: space-between;
+
+  }
+  .adv{
+    margin: auto;
+    
+    
+   
+    img{
+      margin: auto;
+    }
+    h4{
+      text-align: center;
+      font-weight: 500;
+      font-size: 24;
+      line-height: 34px;
+      white-space: pre-line;
+  
+    }
+  
+    
+    
+    
+  p{
+    text-align: center;
+    font-size: 16px;
+    line-height: 26px;
+    opacity: 80%;
+    
+  }
+    
+    max-width: 360px;
+    
+    h4{
+      margin: 66px 0px 20px 0px;
+    }
+    
+    
+  }
+}
+
+.sponsors{
+  
+  h4{
+    
+    margin-top: 231px;
+    font-style: Bold;
+  font-size: 48px;
+  line-height: 67px;
+  margin-bottom: 95px;
+  
+    &:before{
+    content: url('file:///C:/Users/Birmiii/Desktop/course/ComputerCourse/src/imgs/zxc.png');
+    margin-right:50px;
+   
+  }
+  }
+  .logo{
+    margin-left: 54px;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .item_logo{
+    padding-right: 35px;
+    padding-bottom: 59px;
+  }
+  
+
+}
+.programm{
+  
+  img{
+    margin: auto;
+    margin-top: 244px;
+  }
+  h2{
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 76px;
+    margin-bottom: 30px;
+
+  }
+  h5{
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 50%;
+    line-height: 26px;
+  }
+  h6{
+    font-size: 14px;
+    opacity: 50%;
+    font-weight: 400;
+  }
+  p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    max-width: 230px;
+    padding-bottom: 75px;
+  }
+  .list{
+    display: flex;
+    justify-content: center;
+    &_item{
+      display: block;
+      justify-content: flex-end;
+    }
+
+  }
+  .list1{
+
+  }
+  .list2{
+    margin-bottom: 87px;
+    margin-top: 105px;
+
+  }
+  .timeline{
+    margin: 80px 50px 230px 50px;
   }
 }
