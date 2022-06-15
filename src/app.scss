@@ -89,7 +89,11 @@ select {
 
 .main{
   background-image: url('file:///C:/Users/Birmiii/Desktop/course/ComputerCourse/src/imgs/main-screen__bgc.png');
+  @media (max-width:1400px) {
+    margin-right: 10px;
+    margin-left: 10px;
 
+}
 }
 
 .header{
@@ -105,6 +109,17 @@ ul {
   display: flex;
   justify-content: space-between;
   margin-left:200px;
+  @media ( max-width:1410px) {
+    margin-left: 50px;
+    
+  }
+  @media (max-width:1230px) {
+    margin-left: 10px;
+    
+  }
+  @media (max-width:1080px) {
+    display: none;
+  }
 
 
   li{
@@ -113,6 +128,10 @@ ul {
 
       &:last-child {
           margin-right: 0px;
+          @media (max-width:1170px) {
+            display: none;
+            
+          }
       }
   }
 }
@@ -123,11 +142,18 @@ ul {
   border-radius: 50px;
   border: none;
   color: white;
+  @media (max-width:980px) {
+    padding: auto;
+  }
 }
 }
 .main_info{
 
   margin-left: 16.4%;
+  @media (max-width:1410px) {
+    margin-left: 6%;;
+    
+  }
   font-family: 'Roboto', sans-serif;
 
   &_text{
@@ -176,6 +202,10 @@ ul {
     max-width: 1920px;
     margin: 0 auto;
     padding-left: 16%;
+    @media (max-width:1410px) {
+      padding-left: 6%;
+      
+    }
     align-items: center;
     font-family: 'Roboto', sans-serif;
     align-items: center ;
@@ -268,6 +298,7 @@ ul {
   }
   img{
     margin-bottom: 219px;
+    
   }
 }
 
@@ -302,6 +333,10 @@ ul {
   img{
     margin-right: 40px;
     margin-left: 11px;
+    @media (max-width:1410px) {
+      display:none;
+      
+    }
   }
   .percent{
     font-weight: 700;
@@ -312,8 +347,13 @@ ul {
     display: flex;
     justify-content: flex-start;
     
+    
     div{
       margin-right: 235px;
+      @media (max-width:1410px) {
+        margin-right: 200px;
+        
+      }
       
     }
   }
