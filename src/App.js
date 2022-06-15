@@ -16,6 +16,10 @@ import timeline from './imgs/timeline.png';
 import x1 from './imgs/xyi1.png';
 import x2 from './imgs/xyi2.png';
 import x3 from './imgs/xui3.png';
+import vk from './imgs/vk.png';
+import yt from './imgs/youtube.png';
+import fb from './imgs/facebook.png';
+import inst from './imgs/instagram.png';
 
 function App() {
   return (
@@ -294,6 +298,29 @@ function App() {
               <a>Биография</a>
             </div>
           </div>
+        </div>
+        <div className="subscription">
+          <h2>Статьи каждую неделю</h2>
+          <p>Больше 90% учеников прошли полный курс и смогли{'\n'} собрать свой первый компьютер</p>
+          <div className="input">
+            <input value="E-mail" className="colortext" />
+            <button>Подписаться</button>
+          </div>
+          <div className="social">
+            <a target="_blank" href="https://vk.com/birmiiiyo">
+              <img src={vk} />
+            </a>
+            <a target="_blank" href="https://www.youtube.com/channel/UCHX-yf3LICCLSOrWX783i9g">
+              <img src={yt} />
+            </a>
+            <a>
+              <img src={fb} />
+            </a>
+            <a target="_blank" href="https://www.instagram.com/temabirmi">
+              <img src={inst} />
+            </a>
+          </div>
+          <p className="last">Templates #18. More on Figma.info</p>
         </div>
       </div>
     </div>
